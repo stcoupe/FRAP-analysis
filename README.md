@@ -40,7 +40,7 @@ Python package dependencies
 * scikit-image (>= 0.18)
 * matplotlib
 * numpy 
-* scipy
+* scipy (Only required for curve fitting within the demo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
