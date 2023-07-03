@@ -53,9 +53,9 @@ At the moment, this is a set a functions which can be imported and run on a set 
 [FUTURE] : Make this easily run from the command line.
 
 Three basic functions are present in the generate_frap_curve_functions:
-* generate_frap_curves - This is the only function users need to directly interact with unless troubleshooting burn spot identification
-* get_burn_center      - This function is called within generate_frap_curves, and uses the images before and after photobleaching to identify the burn spot
-* mean_circle          - Called within get_burn_center. Gets average of all pixels within some radius of a specified point
+* ```generate_frap_curves``` - This is the only function users need to directly interact with unless troubleshooting burn spot identification
+* ```get_burn_center```      - Called within generate_frap_curves, and uses the images before and after photobleaching to identify the burn spot
+* ```mean_circle```          - Called within get_burn_center. Gets average of all pixels within some radius of a specified point
 
 To run the analysis on your own data:
 1) Crop around each droplet which has been FRAPped. These scripts were built around having multiple droplets from a single field of view which were FRAPped as part of the same timecourse. As such, the time-keeping (time interval and number of frames) are assumed the same across all droplets being analyzed simultaneously.
