@@ -1,3 +1,7 @@
+#Created by Sebastian Coupe
+#Creation Date: 2023-07-02
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import skimage
