@@ -59,7 +59,7 @@ Three basic functions are present in the generate_frap_curve_functions:
 
 To run the analysis on your own data:
 1) Crop around each droplet which has been FRAPped. These scripts were built around having multiple droplets from a single field of view which were FRAPped as part of the same timecourse. As such, the time-keeping (time interval and number of frames) are assumed the same across all droplets being analyzed simultaneously.
-2) Save individual droplets to a folder within the intended output directory called "signal_rois" such that the file structure is '/save_dir/signal_rois/xx.tif', where xx is the filename for an individual FRAP timecourse tiffstack.
+2) Save individual droplets as .tif files (tiffstacks) to a folder which you will specify as ```read_directory```.
 3) Import 'generate_frap_curves':
 
    ```python
